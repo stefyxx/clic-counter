@@ -1,4 +1,6 @@
 import React from 'react';
+import DivMyButton from './DivMyButton';
+
 
 function Home({
   onIncrement,
@@ -7,12 +9,12 @@ function Home({
 }) {
   return (
     <div>
-      <div>
+      {/* <div>
         <button onClick={onIncrement}>+</button>
         <button onClick={onDecrement}>-</button>
-      </div>
+      </div> */}
+      <DivMyButton onIncrement={onIncrement} onDecrement={onDecrement} />
       <div>
-
         <button>
           Vous avez cliqué {counter} fois
         </button>
