@@ -6,9 +6,16 @@ function Home({
 }) {
   return (
     <div>
-      <button>
-        Vous avez cliqué {counter} fois
-      </button>
+      <div>
+        <button onClick={onIncrement}>+</button>
+
+      </div>
+      <div>
+
+        <button>
+          Vous avez cliqué {counter} fois
+        </button>
+      </div>
     </div>
   );
 };
