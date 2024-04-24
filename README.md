@@ -1,4 +1,4 @@
-_Test For IONIX_ : Conter in React
+_Test For EONIX_ : Conter in React
 
 
 # Counter app
